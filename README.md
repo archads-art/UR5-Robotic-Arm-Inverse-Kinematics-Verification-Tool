@@ -1,4 +1,6 @@
 # UR5 Robotic Arm Inverse Kinematics Verification Tool
+PROBLEM STATEMENT:
+
 This project develops a UR5 Inverse Kinematics Verification Tool that models the UR5 robot using DH parameters, computes forward and inverse kinematics, validates IK solutions through forward kinematics, and performs Jacobian-based singularity and manipulability analysis to ensure solution accuracy and reliability.
 
 <img width="900" height="452" alt="image" src="https://github.com/user-attachments/assets/ababf4fb-60d3-4d04-a0b5-a8f7c66aa3a9" />
@@ -16,4 +18,20 @@ structure of the UR5 manipulator.
 
 <img width="679" height="697" alt="Screenshot 2026-06-07 230422" src="https://github.com/user-attachments/assets/26d69f83-5e57-4a8e-9e13-4c0d6cbc75a0" />
 
+CONCLUSION:
+The UR5 Inverse Kinematics Verification Tool was successfully designed and
+implemented using the Denavit-Hartenberg (DH) parameter method. The forward
+kinematics model was developed to determine the end-effector position and
+orientation from a given set of joint angles.
+The obtained inverse kinematics solution was verified by applying forward kinematics to
+the calculated joint angles and comparing the resulting pose with the desired pose. The
+verification results showed negligible position and orientation errors, confirming the
+correctness and validity of the inverse kinematics solution. Additionally, the Jacobian
+matrix was computed and used to analyse the robot's kinematic behaviour and identify
+singular configurations.
+Overall, the project successfully achieved all objectives, including DH modelling,
+forward kinematics, inverse kinematics, Jacobian computation, singularity detection,
+and IK verification. The developed tool provides an accurate and reliable framework for
+analysing and validating the kinematics of the UR5 robotic manipulator and can serve
+as a foundation for future robot motion planning and control applications.
 
