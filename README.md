@@ -11,6 +11,9 @@ complete UR5 robotic arm can be obtained. The final assembly will consist of all
 revolute joints and their corresponding links, accurately representing the kinematic
 structure of the UR5 manipulator.
 
+
+
+
 Python Code:
 import numpy as np
 from scipy.optimize import least_squares
