@@ -19,6 +19,7 @@ structure of the UR5 manipulator.
 <img width="679" height="697" alt="Screenshot 2026-06-07 230422" src="https://github.com/user-attachments/assets/26d69f83-5e57-4a8e-9e13-4c0d6cbc75a0" />
 
 CONCLUSION:
+
 The UR5 Inverse Kinematics Verification Tool was successfully designed and
 implemented using the Denavit-Hartenberg (DH) parameter method. The forward
 kinematics model was developed to determine the end-effector position and
